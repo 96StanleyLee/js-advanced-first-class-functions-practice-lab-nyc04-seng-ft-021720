@@ -1,8 +1,21 @@
-// Code your solution in this file!
-const logDriverNames = function(array){
-    return array.forEach(function(driver){
+// // Code your solution in this file!
+// const logDriverNames = function(array){
+//     return array.forEach(function(driver){
+//         console.log(driver.name)
+//     })
+// }
+
+function logDriverNames(array){
+
+
+    array.forEach(function(driver){
+
+
         console.log(driver.name)
+
     })
+
+
 }
 
 
